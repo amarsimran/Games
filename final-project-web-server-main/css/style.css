@@ -1,0 +1,183 @@
+header, section, footer, aside, nav, article, figure, figcaption{
+    display: block;
+}
+
+body{
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url(../images/body.jpg);
+    background-position: center;
+    font-family: Verdana, Arial, serif;
+    line-height: 1.4em;
+    margin: 0px;
+
+}
+
+#Page{
+    width: 1180px;
+    margin: 20px auto 20px auto;
+    background-color: #ffffff;
+}
+
+header{
+    height: 160px;
+    background-image: url(../images/headergame.jpg);
+}
+
+h1{
+    color:rgba(7, 0, 0, 0.904);
+    font-family:Verdana, Georgia, Times; 
+    font-weight: bold ;
+    line-height: 53px;
+    font-size:45px ;
+    text-shadow: 2px 2px 3px #666666;
+    text-align: center;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+
+}
+
+h2{
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+    color: rgb(0, 0, 255);
+    font-size: 180%;
+    line-height: 43px;
+}
+
+h3{
+    margin: 5px 0px 10px 0px;
+    color: rgb(255, 2, 2);
+    font-size: 140%;
+    line-height: 26px;
+}
+
+hgroup{
+    margin-top: 40px;
+}
+
+nav{
+    clear: both;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+    text-align: center;
+}
+nav>ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 40px;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+nav li a{
+    color: #ffffff;
+}
+
+nav li a:hover, nav li a.current{
+    color: green;
+}
+
+#content{
+    float: left;
+    width: 859px;
+    border-right: 1px solid #eeeeee;
+
+}
+
+p,li{
+    color:rgba(0, 0, 0, 0.972);
+    font-size: 110%;
+    text-align: justify;
+    margin:0px 0px 0px 5px;
+}
+
+p.address{
+    text-align: left;
+}
+
+
+article p, article li {
+    font-size: 110%;
+    color: #000000;
+}
+
+article {
+    width: 95%;
+    color: #000000;
+    padding: 3px 3px 3px 3px;
+    clear: both;
+    overflow: hidden;
+}
+
+figure {
+    width: 50%;
+    height:auto;
+    float: left;
+    padding: 8px;
+    margin: 18px;
+    border: 1px solid #78fc43;
+}
+
+img{
+    width:100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 90%;
+}
+    
+aside {
+    float: left;
+    width: 230px;
+    padding: 0px 0px 0px 20px;
+}
+    
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+        
+aside section a:hover {
+    color: #ff0000;
+    background-color: #fffecd;
+}
+
+a{
+    color: #983dff;
+    text-decoration: none;
+}
+                 
+aside h2 {
+    font-size: 24px;
+    padding: 10px 0px 0px 0px;
+    color: #000000;
+    
+}
+                 
+footer {
+    font-size: 110%;
+    padding: 7px 0px 0px 20px;
+}
+
+p.address{
+    font-size: 100%;
+    font-style: italic;
+    color: #000000;
+}
